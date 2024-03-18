@@ -29,12 +29,8 @@ const Header = () => {
 	//import the values you need to use from app context
 	const { text, setSearchBarText, toggleMenuSize } = useAppContext()
 
-	const {
-		transcript,
-		listening,
-		resetTranscript,
-		browserSupportsSpeechRecognition,
-	} = useSpeechRecognition()
+	const { transcript, listening, browserSupportsSpeechRecognition } =
+		useSpeechRecognition()
 
 	const { pathname } = useLocation()
 

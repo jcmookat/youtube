@@ -1,4 +1,4 @@
-import { Video, Videos } from 'pexels'
+import { Video } from 'pexels'
 import {
 	RegularVideoContent,
 	RegularVideoPic,

@@ -134,6 +134,7 @@ export const AppContextProvider = ({ children }: IAppContextProviderProps) => {
 		isMenuSmall,
 		toggleMenuSize,
 		activeMenuText: LANGUAGE[language][activeMenuText as keyof ITranslations],
+		setActiveMenuText,
 		activeCategory,
 		setActiveCategory,
 		videos,
